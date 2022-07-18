@@ -1,1 +1,23 @@
+1)#import<Foundation/Foundation.h>
+This impprt file imports the Foundation framework inside which many useful classes are present
 
+2)@autoreleasepool
+It releases the memory occupied by the object is no longer needed.
+
+3)Printing in Objective-C: NSLog(@"Hello World!");
+
+4)Sample code
+#include<Foundation/Foundation.h>
+int main(int argc,const char* argv[]){
+@autoreleasepool{
+NSLog(@"Hello World!");
+}
+return 0;
+}
+
+5)String is denoted by NSString
+
+6)To call a function for any datatype the syntax is
+[data-name function-name]
+Eg:Using length function on string data with variable name as quote
+NSLog(@"Size = %d",(int)[quote length]);
